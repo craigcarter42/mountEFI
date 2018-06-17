@@ -6,7 +6,6 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-echo ' ;)'
 echo 'mountEFI: Start'
 
 # Check if EFI directory has been made.
